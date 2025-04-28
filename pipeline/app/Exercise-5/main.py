@@ -101,8 +101,8 @@ def ingest_data(cur, conn):
 def main():
     host = "postgres"
     database = "postgres"
-    user = "postgres"
-    pas = "postgres"
+    user = "airflow"
+    pas = "airflow"
     
     try:
         conn = psycopg2.connect(host=host, database=database, user=user, password=pas)
