@@ -60,10 +60,8 @@ def main(path=os.path.join(os.path.dirname(__file__), 'downloads')):
     # Downloads files
     for url in download_uris:
         download_file(url)
-        break
 
     unzip_delete()
-    print('Hoan tat qua trinh')
     
 
 
